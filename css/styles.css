@@ -8,7 +8,8 @@ body {
     justify-content: space-between;
 }
 
-.header, .footer {
+.header,
+.footer {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
@@ -60,6 +61,7 @@ body {
     background-color: #3882f6;
     width: 150px;
     padding: 8px;
+    color: white;
 }
 
 .header-content-text-title {
@@ -73,9 +75,86 @@ body {
     width: auto;
 }
 
-
 .content {
     flex-grow: 1;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.gallery-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.gallery-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-size: 300;
+    text-align: center;
+}
+
+.quote-author {
+    text-align: right;
+    padding-right: 30%;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #388bf6;
+    color: white;
+}
+
+.call-to-action div {
+    margin: 20px;
+}
+
+.call-to-action button {
+    flex-grow: 0;
+    background-color: #3882f6;
+    width: 150px;
+    padding: 8px;
+    color: white;
+    border-color: white;
 }
 
 .footer {
